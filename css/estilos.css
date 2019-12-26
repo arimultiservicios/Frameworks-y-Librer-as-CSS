@@ -1,1 +1,45 @@
 @charset "utf-8";
+*{
+	margin: 0;
+	padding: 0;
+}
+header{
+	width: 100%;
+	background: yellow;
+	height: 70px;
+}
+.ancho{
+	width: 80%;
+	height: 70px;
+	background: red;
+	margin: auto;
+	float: left;
+	}
+.logo{
+	widows: 30%;
+	height: 70px;
+	background: blue;
+	float: left;
+	}
+.logo p a{
+	color: #FFFFFF;
+	font-size: 22px;
+	padding-top: 10px;
+	box-sizing: border-box;
+	text-decoration: none;
+
+}
+nav{
+	width: 70%;
+	height: 70px;
+	background: #3DFF03;
+	text-align: right;
+}
+.ancho ul li {
+	display: inline;
+}
+ul li a {
+	color: #FFFFFF;
+	font-size: 15px;
+	text-decoration: none;
+}
