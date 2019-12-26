@@ -14,12 +14,14 @@ header{
 	background: red;
 	margin: auto;
 	float: left;
+	text-align: right;
 	}
 .logo{
 	widows: 30%;
 	height: 70px;
 	background: blue;
 	float: left;
+	box-sizing: border-box;
 	}
 .logo p a{
 	color: #FFFFFF;
@@ -33,7 +35,6 @@ nav{
 	width: 70%;
 	height: 70px;
 	background: #3DFF03;
-	text-align: right;
 }
 .ancho ul li {
 	display: inline;
@@ -42,4 +43,9 @@ ul li a {
 	color: #FFFFFF;
 	font-size: 15px;
 	text-decoration: none;
+	text-transform: uppercase;
+}
+.ancho {
+	padding-top: 24px;
+	box-sizing: border-box
 }
